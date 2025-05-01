@@ -3,7 +3,7 @@ import Navbar from './components/shared/Navbar'
 import Home from './components/pages/Home'
 
 import Signup from './components/auth/Signup'
-import Login from './components/auth/login'
+import Login from './components/auth/Login'
 import Services from './components/pages/Services'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
@@ -14,23 +14,23 @@ const appRouter = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: '/login',
+    path: '/Login',
     element: <Login/>
   },
   {
-    path: '/signup',
+    path: '/Signup',
     element: <Signup/>
   },
   {
-    path: '/services',
+    path: '/Services',
     element: <Services/>
   },
   {
-    path: '/about',
+    path: '/About',
     element: <About/>
   },
   {
-    path: '/contact',
+    path: '/Contact',
     element: <Contact/>
   },
 

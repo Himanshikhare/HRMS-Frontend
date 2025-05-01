@@ -16,16 +16,16 @@ const Navbar = () => {
                     <ul className='flex text-l font-medium items-center justify-center gap-7 hover:cursor-default'>
 
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/services">Services</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/Services">Services</Link></li>
+                        <li><Link to="/About">About</Link></li>
+                        <li><Link to="/Contact">Contact</Link></li>
 
                     </ul>
                     {
                         !user ? (
                             <div className='flex item-center gap-5'>
-                                <Link to="/login"><button variant="outline" className='w-20 border bg-[white] font-medium hover:bg-[lightgreen] hover:shadow-lg hover:shadow-[black] transition-shadow duration-1000'>Login</button></Link>
-                                <Link to="/signup"><button className=' w-20 border hover:bg-[pink] hover:shadow-lg hover:shadow-[black] transition-shadow duration-1000 border bg-[white] font-medium'>Signup</button></Link>
+                                <Link to="/Login"><button variant="outline" className='w-20 border bg-[white] font-medium hover:bg-[lightgreen] hover:shadow-lg hover:shadow-[black] transition-shadow duration-1000'>Login</button></Link>
+                                <Link to="/Signup"><button className=' w-20 border hover:bg-[pink] hover:shadow-lg hover:shadow-[black] transition-shadow duration-1000 border bg-[white] font-medium'>Signup</button></Link>
                             </div>
                         ):(<Popover>
                             <PopoverTrigger >
